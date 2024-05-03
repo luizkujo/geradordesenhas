@@ -34,7 +34,7 @@ body{
 }
 #campo-senha{
     border:none;
-    color:var(--branco) ;
+    color:var(--fundo-senha) ;
     font-family: var(--Quicksand);
     font-size: 40px;
     width: 70%;
