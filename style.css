@@ -34,10 +34,11 @@ body{
 }
 #campo-senha{
     border:none;
-    color:var(--fundo-senha) ;
+    color:var(--branco);
     font-family: var(--Quicksand);
     font-size: 40px;
     width: 70%;
+    background-color: var(--fundo-senha);
 }
 #campo-senha:focus{
     outline: none;
