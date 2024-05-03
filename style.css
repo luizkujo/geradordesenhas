@@ -22,7 +22,20 @@ body{
     font-family: var(--Quicksand);
     font-size: 30px;
 }
-titulo-secundario{
+.titulo-secundario{
     font-size: 20px;
     font-family: var(--Comfortaa);
+}
+.conteudo-senha{
+    background: var(--fundo-senha);
+    padding: 20px;
+  border-bottom:6px solid var(--borda);
+  margin-top: 80px;
+}
+#campo-senha{
+    border:none;
+    color:var(--branco) ;
+    font-family: var(--Quicksand);
+    font-size: 40px;
+    width: 70%;
 }
