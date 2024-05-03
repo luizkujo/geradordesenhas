@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 :root{
---branco:white;
+--branco:rgb(0, 0, 0);
 --cor-de-fundo:#00162E;
 --fundo-senha:#00244D;
 --fundo-texto:#001E40;
 --borda:#0075FF;
+--Quicksand:'Quicksand', sans-serif;
+
 }
 body{
     color:var(--branco);
@@ -13,4 +15,11 @@ body{
 .conteudo-titulo{
     text-align: center;
     margin-top: 80px;
+}
+.titulo-principal{
+    font-family: var(--Quicksand);
+    font-size: 30px;
+}
+titulo-secundario{
+    font-size: 20px;
 }
